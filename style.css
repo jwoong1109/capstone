@@ -115,7 +115,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  font-size: 150px;
   font-weight: 300;
   text-align: center;
   line-height: 1.2em;
@@ -625,96 +625,6 @@ hr.bar {
   margin: 0;
 }
 
-/* #################### Section : contact  ####################*/
-.contact-inner {
-  background-color: #fff;
-  height: 100%;
-  border: 1px solid #ddd;
-}
-.contact-feature {
-  width: 70%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.contact-feature > div {
-  float: left;
-  width: 50%;
-  padding: 20px;
-}
-.contact-form {}
-.contact-form h3 {
-  font-size: 30px;
-  font-weight: normal;
-  margin: 0;
-}
-.send-box {}
-.send-box label {
-  display: block;
-  font-weight: bold;
-  font-size: 16px;
-  margin: 10px 0;
-  margin-top: 20px;
-}
-.send-box label span {
-  color: crimson;
-  font-weight: normal;
-}
-.send-box input[type=email],
-.send-box input[type=text],
-.send-box textarea {
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 3px;
-  outline: none;
-  width: 100%;
-  transition: 0.5s;
-}
-.send-box input[type=email]:hover,
-.send-box input[type=text]:hover,
-.send-box textarea:hover {
-  border: 1px solid #0088cc;
-  box-shadow: 0 0 5px #0088cc;
-}
-.send-box input[type=email]:focus,
-.send-box input[type=text]:focus,
-.send-box textarea:focus
-{
-  background-color: #eee;
-}
-.send-box button {
-  background-color: #0088cc;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: 0.5s;
-  margin-top: 10px;
-}
-.send-box button:hover {
-  background-color: #000;
-}
-
-.contact-info {}
-.contact-info h4 {
-  font-weight: normal;
-  font-size: 20px;
-  margin: 0;
-  margin-top: 20px;
-}
-.contact-info ul li {
-  line-height: 2em;
-}
-.contact-info ul li:la2st-child {
-  color: #0088cc;
-}
-.contact-info p {
-  line-height: 1.5em;
-}
-
 /* ############ SubPage : Hiring ############ */
 .modal {
   font-family: 'Source Sans Pro', sans-serif;
@@ -890,17 +800,17 @@ hr.bar {
 
 /* ############ SubPage : Project ############ */
 .hiring-main.project-main1 {
-  background: url(images/project-main-01-01.jpg) no-repeat center center;
+  background: url(image/a1.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
 .hiring-main.project-main2 {
-  background: url(images/project-main-02-01.jpg) no-repeat center center;
+  background: url(image/a2.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
 .hiring-main.project-main3 {
-  background: url(images/project-main-03-01.jpg) no-repeat center center;
+  background: url(image/a3.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
