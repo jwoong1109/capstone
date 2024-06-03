@@ -229,20 +229,6 @@
     padding: 20px;
   }
 
-  /* #################### Section : contact  ####################*/
-  .contact-inner {
-    height: auto;
-  }
-  .contact-feature  {
-    width: 100%;
-    position: static;
-    transform: none;
-  }
-  .contact-feature > div {
-    float: none;
-    width: 100%;
-  }
-
   /* ############## Section : project  ##############*/
   .project-inner {
     height: auto;
